@@ -1,4 +1,4 @@
 class Product < ApplicationRecord
-    belongs_to :retailers
-    belongs_to :customers
+    belongs_to :retailer
+    belongs_to :customer
 end
